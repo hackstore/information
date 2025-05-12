@@ -1,26 +1,23 @@
+<!doctype html>
 
-<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
-    
-  <title>Team Red Eagle India Database</title>  
-  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">  
-</head>  
-<body>  
-  <header>  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Team Red Eagle India Database</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+  <header>
     <h1>Pakistan Banks Database</h1>
 <h2> Hacked by - Trivigil</h2>
-<h3>Team Red Eagle India 🇮🇳</h3>  
-    <nav>  
-      <a href="http://127.0.0.1:8000/templates/%7B%7B%20url_for('upload')%20%7D%7D">Upload</a>  
-      <a href="http://127.0.0.1:8000/templates/%7B%7B%20url_for('search')%20%7D%7D">Search</a>  
-    </nav>  
-  </header>  
-  <main>  
-    {% block content %}{% endblock %}  
-  </main>  
-  
-  
-
-</body></html> 
-
-
- 
+<h3>Team Red Eagle India 🇮🇳🇮🇳</h3>
+    <nav>
+      <a href="{{ url_for('upload') }}">Upload</a>
+      <a href="{{ url_for('search') }}">Search</a>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
