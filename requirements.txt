@@ -1,2 +1,7 @@
-flask
-telegram 
+Flask
+pandas
+openpyxl
+SQLAlchemy
+Flask-SQLAlchemy
+Werkzeug
+python-telegram-bot==20.7
